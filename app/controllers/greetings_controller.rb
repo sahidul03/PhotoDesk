@@ -1,6 +1,6 @@
 class GreetingsController < ApplicationController
   def hello
-    render json: { greetings: :hello_world, version: 2, cordinator: :sazia }
+    render json: { greetings: :hello_world, version: 5, test: :codepipeline }
   end
 
   def health
