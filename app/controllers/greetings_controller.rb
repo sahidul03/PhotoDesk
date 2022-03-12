@@ -1,6 +1,6 @@
 class GreetingsController < ApplicationController
   def hello
-    render json: { greetings: :hello_world, version: 6, message: "Please check the codepipeline", commit: "Commit to another branch and then merge" }
+    render json: { greetings: :hello_world, version: 7, message: "Used public subnet and removed elastic IP and nat get way" }
   end
 
   def health
